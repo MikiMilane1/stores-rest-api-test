@@ -36,9 +36,9 @@ class StoreTest(BaseTest):
             self.assertEqual(store.items.first().name, 'Test Item')
 
     def test_store_json(self):
-        store = StoreModel("Test Store")
+        store = StoreModel("test_store")
         expected = {
-            "name": "Test Store",
+            "name": "test_store",
             "items": [],
         }
 
