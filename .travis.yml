@@ -4,5 +4,5 @@ python:
   - "nightly"
 install:
   - "pip install pytest"
-  - "pip install -r requirements.txt"
+  - "pip install --upgrade -r requirements.txt"
 script: python -m pytest tests/
